@@ -21,3 +21,8 @@ Once the Rsi instance initiated, feed it with every close price, after 14 prices
 
 
 will return null until it 15 prices are received.
+
+
+To run a test
+
+```npm run test```

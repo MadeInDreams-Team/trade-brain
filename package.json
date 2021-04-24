@@ -1,10 +1,10 @@
 {
-  "name": "@madeindreams/trade-brain",
+  "name": "@madeindreams-team/trade-brain",
   "version": "1.0.0",
   "description": "Artificial Intelligence For Trading Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/tickerTest.js"
   },
   "repository": {
     "type": "git",

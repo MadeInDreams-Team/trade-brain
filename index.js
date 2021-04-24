@@ -1,8 +1,8 @@
-import {Rsi} from "./index/rsi"
+import {ai} from "./index/index.js"
 
 
 // export all index from here
 export {
 
-    Rsi
+    ai
 }
