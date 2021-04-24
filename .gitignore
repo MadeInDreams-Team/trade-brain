@@ -2,6 +2,7 @@
 
 # Other files and folders
 .env
+.npmrc
 .vscode/
 node_modules/
 # Executables
