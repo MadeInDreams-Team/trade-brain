@@ -1,6 +1,6 @@
 {
   "name": "@madeindreams-team/trade-brain",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "description": "Artificial Intelligence For Trading Bot",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/MadeInDreams-Team/trade-brain/issues"
   },
-  "homepage": "https://github.com/MadeInDreams-Team/trade-brain#readme"
+  "homepage": "https://github.com/MadeInDreams-Team/trade-brain#readme",
+  "publishConfig": { 
+    "registry":"https://npm.pkg.github.com"
+ }
 
 }
