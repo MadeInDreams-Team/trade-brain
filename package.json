@@ -1,0 +1,23 @@
+{
+  "name": "@madeindreams/trade-brain",
+  "version": "1.0.0",
+  "description": "Artificial Intelligence For Trading Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadeInDreams-Team/trade-brain.git"
+  },
+  "keywords": [
+    "Template"
+  ],
+  "author": "Ian Decentralize",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadeInDreams-Team/trade-brain/issues"
+  },
+  "homepage": "https://github.com/MadeInDreams-Team/trade-brain#readme"
+
+}
