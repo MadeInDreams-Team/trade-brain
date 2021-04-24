@@ -1,6 +1,6 @@
 {
   "name": "@madeindreams-team/trade-brain",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Artificial Intelligence For Trading Bot",
   "main": "index.js",
   "scripts": {
