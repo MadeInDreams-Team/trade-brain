@@ -136,9 +136,9 @@ module.exports = class ai {
          // we can start calculating the MACD
         if(this.ema26History.length >= 2){
 
-        let ema26Seq = (close - this.ema26History[this.ema26History.length-1] ) * weightMultiplier2 + this.ema26History[this.ema26History.length-2]
+        let ema26Seq = (close - this.ema26History[this.ema26History.length-1] ) * weightMultiplier2 + this.ema26History[this.ema26History.length-1]
 
-        let ema12Seq = (close - this.ema12History[this.ema12History.length-1] ) * weightMultiplier + this.ema12History[this.ema12History.length-2]
+        let ema12Seq = (close - this.ema12History[this.ema12History.length-1] ) * weightMultiplier + this.ema12History[this.ema12History.length-1]
 
         this.macd.push(ema12Seq - ema26Seq)
 
