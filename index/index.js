@@ -63,7 +63,7 @@ module.exports = class ai {
         }
 
         
-       if(this.candleCount >= 15){
+       if(this.candleCount >= 14){
        // do we get more then 14 or the 14 last?
        let sumGainAvg  =  this.avgGain.slice(this.avgGain.length-15,this.avgGain.length ).reduce((a, b) => a + b, 0)
        let sumLostAvg  =  this.avgLost.slice(this.avgLost.length-15,this.avgLost.length).reduce((a, b) => a + b, 0)
