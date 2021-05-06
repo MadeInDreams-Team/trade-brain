@@ -2,6 +2,7 @@
   "name": "@madeindreams-team/trade-brain",
   "version": "1.0.21",
   "description": "Artificial Intelligence For Trading Bot",
+  "type":"module",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/tickerTest.js"
